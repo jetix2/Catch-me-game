@@ -1,0 +1,132 @@
+
+body {
+    background-color: gray;
+}
+
+#background  {
+    background-color: black;
+    width: 1180px;
+    height: 750px;
+    position: relative;
+    float: left;
+    left: 50px;
+}
+#spinner {
+    padding: 2px 10px;
+    background-color: chartreuse;
+    text-align: center;
+    position: absolute;
+    top: 95px;
+    left: 20px;
+    animation: rotate infinite linear 0s;
+}
+#title {
+    background-color: rgb(206, 203, 62);
+    height: 50px;
+    border: black solid 10px;
+    margin: 10px;
+}
+#table {
+    background-color: rgb(29, 216, 230);
+    width: 500px;
+    height: 656px;
+    float: right;
+    border: solid 48px;
+    text-align: center;
+    text-decoration-color: beige;
+    display: grid;
+}
+
+#table1 {
+    background-color: yellow;
+    width: 494px;
+    height: 78px;
+    position: relative;
+    float: right;
+    top: 0px;
+    left: 0px;
+    border: solid black;
+}
+
+#table2 {
+    background-color: yellow;
+    width: 494px;
+    height: 78px;
+    position: relative;
+    float: right;
+    top: 0px;
+    left: 0px;
+    border: solid black;
+}
+
+#table3 {
+    background-color: yellow;
+    width: 494px;
+    height: 78px;
+    position: relative;
+    float: right;
+    top: 0px;
+    left: 0px;
+    border: solid black;
+}
+
+#table4 {
+    background-color: yellow;
+    width: 494px;
+    height: 78px;
+    position: relative;
+    float: right;
+    top: 0px;
+    left: 0px;
+    border: solid black;
+}
+
+#table5 {
+    background-color: yellow;
+    width: 494px;
+    height: 78px;
+    position: relative;
+    float: right;
+    top: 0px;
+    left: 0px;
+    border: solid black;
+}
+
+#table6 {
+    background-color: yellow;
+    width: 494px;
+    height: 220px;
+    position: relative;
+    float: right;
+    top: 0px;
+    left: 0px;
+    border: solid black;
+}
+
+
+
+
+#startGame {
+    text-align: center;
+}
+#startGame:hover {
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+mark {
+    background-color: green ;
+}
+
+h4 {
+    margin-block-end: -1.35em;
+}
